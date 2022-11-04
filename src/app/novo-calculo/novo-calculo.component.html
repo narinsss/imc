@@ -1,0 +1,16 @@
+<section class="tela col-md-12 mt-5">
+    <form class="formulario container col-md-6 p-3" (ngSubmit)="calcular()">
+      <h2 class="text-center">Descubra seu Índice de Massa Corporal</h2>
+      <div class="box">
+        <div class="d-flex justify-content-center">
+          <label for="peso"></label>
+          <input id="peso" name="peso" [(ngModel)]="peso" type="text" placeholder="Digite seu peso">
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+          <label for="altura"></label>
+          <input id="altura" name="altura" [(ngModel)]="altura" type="text" placeholder="Digite sua altura sem vírgula">
+        </div>
+        <button class="button" type="submit">Calcular</button>
+      </div>
+    </form>
+</section>
