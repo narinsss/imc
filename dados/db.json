@@ -1,0 +1,46 @@
+{
+  "calculos": [
+    {
+      "id": 1,
+      "nome": "Marina Rosa",
+      "idade": 23,
+      "imc": 20.6
+    },
+    {
+      "id": 2,
+      "nome": "Angela Pereira",
+      "idade": 48,
+      "imc": 44
+    },
+    {
+      "nome": "Ana Beatriz",
+      "idade": "19",
+      "imc": "27.7",
+      "id": 3
+    },
+    {
+      "nome": "Jonas Rosa Nunes",
+      "idade": "24",
+      "imc": "21.5",
+      "id": 4
+    },
+    {
+      "nome": "Joao Paulo",
+      "idade": "43",
+      "imc": "27.8",
+      "id": 5
+    },
+    {
+      "nome": "Ana Maria",
+      "idade": "50",
+      "imc": "25.4",
+      "id": 6
+    },
+    {
+      "nome": "John Doe",
+      "idade": "15",
+      "imc": "574.0",
+      "id": 7
+    }
+  ]
+}

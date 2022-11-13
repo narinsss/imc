@@ -1,0 +1,22 @@
+
+table{
+  margin-top: 15px;
+  min-width: auto;
+  width: 600px;
+
+}
+
+thead{
+  padding: 10px;
+}
+
+thead{
+  background-image: linear-gradient(to right, rgb(137, 226, 167), rgb(141, 212, 165), rgb(137, 226, 167));
+  text-align: center;
+  border: 1px solid rgba(0, 20, 4, 0.719);
+}
+
+tr{
+  text-align: center;
+  border-bottom: 1px solid rgba(224, 221, 221, 0.623);
+}

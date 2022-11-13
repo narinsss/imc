@@ -1,1 +1,27 @@
+<div class="col-md-12 mt-2" id="tabela">
+  <div class=" mt-5">
+    <h2 class="text-center col-md-12">Consultas anteriores</h2>
+    <div class="d-flex justify-content-center" *ngIf="calculos.length > 0; else condicao;">
+      <table class="p-2">
+        <thead>
+          <th class="nome">Nome</th>
+          <th class="idade">Idade</th>
+          <th class="imc">IMC</th>
+        </thead>
+        <tbody *ngFor="let calculo of calculos">
+          <tr>
+            <td class="nom">{{ calculo.nome }}</td>
+            <td class="idad">{{ calculo.idade }}</td>
+            <td class="imcc">{{ calculo.imc }}</td>
+          </tr>
+        </tbody>
+      </table>
 
+    </div>
+  </div>
+
+  <ng-template #condicao>
+    <p class="text-center"> Não contém registros ainda.</p>
+  </ng-template>
+
+</div>

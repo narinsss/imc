@@ -1,3 +1,5 @@
+import { CalculosService } from './services/calculos.service';
+import { ResultadoComponent } from './resultado/resultado.component';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,10 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'imc';
-  calculo: any;
+  calculos: any[] = [];
+
+  constructor(
+    private service: CalculosService
+  ){}
 
   calcular($event: any) {
-    console.log($event);
-    this.calculo = $event;
+    this.service.adicionar($event);
   }
+
 }

@@ -1,3 +1,10 @@
-<app-novo-calculo (aoCalcular)="calcular($event)"></app-novo-calculo>
-<p>Seu IMC: {{ calculo?.imc }}</p>
+<header>
+  <img src="https://i.imgur.com/MRh4tM2.png" alt="">
+  <a routerLink="resultado" routerLinkActive="ativo">Registros</a>
+  <a routerLink="novo-calculo" routerLinkActive="ativo"> Consultar IMC </a>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+
 
